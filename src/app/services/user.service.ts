@@ -12,20 +12,19 @@ export class UserService {
     return this.http.get(`${this.baseUrl}/users`);
   }
 
-  createUser(user: any) {
+  createUser (user: any) {
     return this.http.post(`${this.baseUrl}/users/create`, user);
   }
 
-  updateUser(id: string, user: any) {
+  updateUser (id: string, user: any) {
     return this.http.put(`${this.baseUrl}/users/update/${id}`, user);
   }
 
-
-  deleteUser(id: string) {
+  deleteUser (id: string) {
     return this.http.delete(`${this.baseUrl}/users/delete/${id}`);
   }
 
-  unlockUser() {}
-  
-  getUserByUsername() {}
+  unlockUser () {}
+
+  getUserByUsername () {}
 }

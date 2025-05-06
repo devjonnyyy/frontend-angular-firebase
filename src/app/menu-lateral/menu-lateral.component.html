@@ -1,1 +1,17 @@
-<p>menu-lateral works!</p>
+<div class="sidebar">
+  <div class="sidebar-header">
+    <h2>Menú Lateral</h2>
+  </div>
+  <ul>
+    <li>
+      <a routerLink="/dashboard/usuarios" routerLinkActive="active">
+        Usuarios
+      </a>
+    </li>
+    <li>
+      <a (click)="logout()">
+        Cerrar Sesión
+      </a>
+    </li>
+  </ul>
+</div>

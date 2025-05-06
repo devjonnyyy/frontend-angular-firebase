@@ -1,0 +1,42 @@
+h2 {
+  color: #333;
+  font-size: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  padding: 0.5rem;
+  text-align: left;
+  border: 1px solid #ccc;
+  color: #333;
+}
+
+button {
+  margin-right: 0.5rem;
+}
+
+.modal {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background: rgb(0, 0, 0, 0.5);
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+
+form {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+}

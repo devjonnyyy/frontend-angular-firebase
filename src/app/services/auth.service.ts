@@ -15,7 +15,7 @@ export class AuthService {
       usuario: username,
       password
     }).pipe(
-      tap(( res:any ) => {
+      tap(( res: any) => {
         localStorage.setItem('token', res.token);
       })
     )
